@@ -24,9 +24,7 @@ const PokeGame = () => {
   let experienceOne =  hand1.reduce((acc, val) => {
     return acc + val.base_experience
   },0);
-
   // let experienceOne = hand1.reduce((acc, val) => acc + val, 0); // same thing implicit ES6 return
-
   let experienceTwo =  hand2.reduce((acc, val) => {
     return acc +  val.base_experience
   },0);

@@ -1,7 +1,8 @@
 .Pokedex {
     display:flex;
-   justify-content: center;
+    justify-content: center;
 }
+
 .Pokedex-headings {
     text-align: center;
 }
